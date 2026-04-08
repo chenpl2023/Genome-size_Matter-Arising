@@ -1,0 +1,350 @@
+Genome,GC content,Genome size,Coding density,Predicted genes,Kingdom,Phylum,Class,Order,Family,Genus,"	Species"
+A1_bin.10,0.444381178,1354056,0.835588041,1865,Archaea,Thermoproteota,Nitrososphaeria,Nitrososphaerales,Nitrososphaeraceae,Nitrososphaera,Nitrososphaera sp025922735
+A1_bin.11,0.741124587,4323292,0.921237335,5233,Bacteria,Actinomycetota,Acidimicrobiia,Acidimicrobiales,JACDCH01,ZC4RG19,ZC4RG19 sp035708905
+A1_bin.4,0.581370673,2434323,0.90332384,2990,Bacteria,Nitrospirota,Nitrospiria,Nitrospirales,Nitrospiraceae,Nitrospira_C,Nitrospira_C sp035454845
+A1_bin.6,0.630326644,2696632,0.942386651,2827,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,JACCTH01,JACCTH01 sp025922945
+A1_bin.7,0.679830376,1994296,0.934783001,2557,Bacteria,Actinomycetota,UBA4738,UBA4738,HRBIN12,CALGFI01,CALGFI01 sp036280315
+A1_bin.2,0.603726591,2636619,0.905276037,3314,Bacteria,Pseudomonadota,Alphaproteobacteria,Rhizobiales,Aestuariivirgaceae,DATBLQ01,s__
+A2_bin.1,0.651791767,3476707,0.93266128,3806,Bacteria,Pseudomonadota,Gammaproteobacteria,Rariloculales,Rariloculaceae,DATCZB01,s__
+A1_bin.13,0.62830281,3545125,0.913349741,4027,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,JANQRA01,JANQRA01 sp035620735
+A2_bin.10,0.621501242,2080810,0.933894012,2326,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,MA-ANB-1,s__
+A1_bin.8,0.670640767,2368083,0.899212148,3204,Bacteria,Actinomycetota,Thermoleophilia,Solirubrobacterales,Sep-70,VAYN01,s__
+A1_bin.5,0.66573132,2589770,0.940906721,2920,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,JANQRA01,s__
+A2_bin.17,0.734627351,2639428,0.930431897,3079,Bacteria,Actinomycetota,Thermoleophilia,Gaiellales,Gaiellaceae,JAIBJN01,JAIBJN01 sp035762005
+A2_bin.15,0.723719196,1615704,0.936877671,1973,Bacteria,Actinomycetota,UBA4738,UBA4738,HRBIN12,DASSJM01,s__
+A2_bin.24,0.722879036,2470091,0.91821192,2901,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,RSA9,DATHRK01,s__
+A2_bin.25,0.68366624,1946343,0.917586469,2430,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,UBA11373,JAUYIV01,s__
+A1_bin.1,0.649207811,3701579,0.885563431,3823,Bacteria,Pseudomonadota,Gammaproteobacteria,Burkholderiales,SG8-41,SG8-41,s__
+A2_bin.2,0.691984647,3457003,0.914777337,4160,Bacteria,Actinomycetota,Actinomycetes,Propionibacteriales,Nocardioidaceae,Nocardioides_C,s__
+A2_bin.21,0.669322554,2209682,0.933666021,2404,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,ZC4RG35,s__
+A2_bin.23,0.649107259,3210169,0.901936004,3864,Bacteria,Pseudomonadota,Gammaproteobacteria,Burkholderiales,SG8-41,SG8-41,s__
+A2_bin.20,0.64671802,3569933,0.915541272,3248,Bacteria,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,SZUA-36,JAUIBE01,s__
+A2_bin.18,0.386044411,3299610,0.758056558,4952,Archaea,Thermoproteota,Nitrososphaeria,Nitrososphaerales,Nitrososphaeraceae,TH5893,TH5893 sp029240395
+A1_bin.3,0.562331092,4315968,0.930265007,4350,Bacteria,Acidobacteriota,Blastocatellia,Pyrinomonadales,Pyrinomonadaceae,PSRF01,s__
+A2_bin.26,0.644113845,1492171,0.903182008,1804,Bacteria,Pseudomonadota,Alphaproteobacteria,Rhizobiales,Methyloligellaceae,Methyloceanibacter,s__
+A2_bin.12,0.577660059,5240184,0.907106315,5945,Bacteria,Chloroflexota,Anaerolineae,Promineifilales,Promineifilaceae,,s__
+A2_bin.11,0.66068107,3520228,0.914347593,4164,Bacteria,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Rhodanobacteraceae,Luteibacter,s__
+A2_bin.33,0.700664273,2579211,0.929995646,2749,Bacteria,Gemmatimonadota,Gemmatimonadetes,Gemmatimonadales,GWC2-71-9,Palsa-1233,s__
+A2_bin.43,0.684938023,2337575,0.942871993,2585,Bacteria,Actinomycetota,Thermoleophilia,Solirubrobacterales,Sep-70,,s__
+A2_bin.29,0.657650645,2908415,0.935210071,3035,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,Ww567,s__
+A2_bin.19,0.709074096,3801260,0.919756344,4444,Bacteria,Methylomirabilota,Methylomirabilia,Rokubacteriales,CSP1-6,CAMLFJ01,CAMLFJ01 sp035524955
+A2_bin.41,0.656749251,1766522,0.928139587,2293,Bacteria,Actinomycetota,CADDZG01,CADDZG01,WHSQ01,,s__
+A2_bin.42,0.689576121,2972310,0.931581161,2999,Bacteria,Gemmatimonadota,Gemmatimonadetes,Gemmatimonadales,GWC2-71-9,SZUA-320,s__
+A2_bin.34,0.283616707,2989637,0.708255216,3955,Archaea,Thermoproteota,Nitrososphaeria,Nitrososphaerales,Nitrososphaeraceae,TH1177,TH1177 sp036380115
+A2_bin.44,0.271062495,2894244,0.703120055,3578,Archaea,Thermoproteota,Nitrososphaeria,Nitrososphaerales,Nitrososphaeraceae,TH1177,s__
+A2_bin.6,0.632640773,2421352,0.930329832,2744,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,JANQRA01,s__
+A2_bin.37,0.751782326,3071828,0.899681558,3366,Bacteria,Actinomycetota,Actinomycetes,Actinomycetales,,,s__
+B1_bin.10,0.655278834,3014738,0.940808455,3110,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,JARDZU01,JARDZU01 sp025928935
+A2_bin.46,0.507843955,3568608,0.908560425,4626,Bacteria,Chloroflexota,Anaerolineae,Anaerolineales,Villigracilaceae,Defluviilinea,s__
+A2_bin.9,0.543382878,1208864,0.909023678,1807,Archaea,Thermoproteota,Nitrososphaeria,Nitrososphaerales,Nitrososphaeraceae,Nitrososphaera,s__
+A2_bin.35,0.39697989,2718047,0.752133057,3632,Archaea,Thermoproteota,Nitrososphaeria,Nitrososphaerales,Nitrososphaeraceae,TH5896,s__
+A2_bin.14,0.70522051,6917408,0.905747066,8154,Bacteria,Actinomycetota,Actinomycetes,Streptosporangiales,Streptosporangiaceae,Nonomuraea,s__
+A2_bin.39,0.689687183,3199349,0.926766664,3635,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,DATHWB01,s__
+A2_bin.7,0.572668296,3507692,0.875458564,4021,Bacteria,Desulfobacterota_B,Binatia,UBA9968,UBA9968,DP-20,s__
+A2_bin.32,0.713962508,3592134,0.912758544,4067,Bacteria,Actinomycetota,Acidimicrobiia,Acidimicrobiales,AC-14,CADCTB01,s__
+A2_bin.22,0.718320585,4708736,0.923197223,4460,Bacteria,Acidobacteriota,Vicinamibacteria,Vicinamibacterales,UBA2999,,s__
+B1_bin.14,0.64794631,2917359,0.930123101,3435,Bacteria,Actinomycetota,CADDZG01,CADDZG01,WHSQ01,,s__
+A2_bin.47,0.599989369,2445765,0.916787999,3372,Bacteria,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Oleiphilaceae,Marinobacter,Marinobacter sp946886895
+A2_bin.36,0.525956572,5464512,0.898917049,5785,Bacteria,Chloroflexota,Anaerolineae,Promineifilales,Promineifilaceae,JAKEFB01,s__
+A2_bin.38,0.526770784,5823083,0.892016652,6044,Bacteria,Chloroflexota,Anaerolineae,Anaerolineales,Villigracilaceae,Defluviilinea,s__
+A2_bin.8,0.436356644,2719789,0.915532418,3067,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Salinimicrobium,s__
+B1_bin.11,0.634835077,3283960,0.92023289,3128,Bacteria,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,SZUA-36,JAUIBE01,s__
+A2_bin.45,0.733317984,5033999,0.884016663,5359,Bacteria,Actinomycetota,Acidimicrobiia,Acidimicrobiales,JACDCH01,DATCLS01,s__
+A2_bin.5,0.71891824,3174973,0.912508862,3863,Bacteria,Chloroflexota,Limnocylindria,Limnocylindrales,CSP1-4,CF-46,CF-46 sp035759195
+B1_bin.15,0.698879568,2051352,0.938545896,2532,Bacteria,Actinomycetota,Thermoleophilia,Solirubrobacterales,Thermoleophilaceae,JAAYBF01,s__
+B1_bin.1,0.697461836,4845392,0.904247169,4700,Bacteria,Gemmatimonadota,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,DATIGO01,DATIGO01 sp035454665
+B1_bin.28,0.716262603,2271752,0.922266163,2411,Bacteria,Actinomycetota,Nitriliruptoria,Euzebyales,Egibacteraceae,DATLGH01,s__
+B1_bin.17,0.61806685,2557225,0.922223895,3224,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,Ww567,s__
+B1_bin.18,0.635913097,3490359,0.882863625,3360,Bacteria,Pseudomonadota,Alphaproteobacteria,JACAEB01,JACAEB01,,s__
+B1_bin.24,0.715029532,3001118,0.894522641,3615,Bacteria,Pseudomonadota,Alphaproteobacteria,Kiloniellales,J153,,s__
+B1_bin.26,0.638938657,2972650,0.932589104,3215,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,JANQRA01,JANQRA01 sp035762545
+B1_bin.3,0.729028218,2657583,0.929375677,3080,Bacteria,Chloroflexota,Limnocylindria,Limnocylindrales,CSP1-4,SPCO01,s__
+B1_bin.19,0.628709288,4722604,0.900114217,4616,Bacteria,Pseudomonadota,Alphaproteobacteria,UBA8366,JADFVY01,,s__
+A2_bin.4,0.625713734,4087831,0.921671664,4933,Bacteria,Acidobacteriota,Vicinamibacteria,Marinacidobacterales,SMYC01,DASPGQ01,DASPGQ01 sp035620555
+B1_bin.21,0.640581692,2777346,0.88664466,3642,Bacteria,Pseudomonadota,Alphaproteobacteria,Rhizobiales,Methyloligellaceae,Methyloceanibacter,Methyloceanibacter marginalis
+B1_bin.46,0.638895915,2605307,0.931197744,2973,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,JANQRA01,s__
+B1_bin.39,0.290787021,2828933,0.724578489,3023,Archaea,Thermoproteota,Nitrososphaeria,Nitrososphaerales,Nitrososphaeraceae,TH1177,s__
+B1_bin.8,0.35815373,2032119,0.810227649,2580,Archaea,Thermoproteota,Nitrososphaeria,Nitrososphaerales,Nitrososphaeraceae,TA-21,TA-21 sp025923455
+B1_bin.23,0.388786922,3870534,0.905831598,4372,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,VBAS01,VBAS01 sp036374555
+B1_bin.42,0.720525894,2163857,0.938361454,2635,Bacteria,Actinomycetota,UBA4738,UBA4738,HRBIN12,,s__
+B1_bin.36,0.648374085,2959196,0.886790196,2769,Bacteria,Pseudomonadota,Gammaproteobacteria,SMWH01,,,s__
+B1_bin.7,0.305284158,2584972,0.700779738,2903,Archaea,Thermoproteota,Nitrososphaeria,Nitrososphaerales,Nitrososphaeraceae,Nitrosocosmicus,s__
+B1_bin.6,0.671422257,3384718,0.923240282,3759,Bacteria,Pseudomonadota,Gammaproteobacteria,Woeseiales,Woeseiaceae,IDS-8,s__
+B1_bin.53,0.685804206,2436764,0.925700642,2972,Bacteria,Actinomycetota,Thermoleophilia,Solirubrobacterales,Sep-70,VAYN01,s__
+B1_bin.2,0.622514785,4091196,0.85942497,5039,Bacteria,Acidobacteriota,Terriglobia,Bryobacterales,UBA6623,,s__
+B1_bin.47,0.634884069,2743923,0.922992373,3091,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,JANQRA01,JANQRA01 sp036373995
+B1_bin.49,0.717511592,3339291,0.910594195,4039,Bacteria,Actinomycetota,Actinomycetes,Mycobacteriales,Micromonosporaceae,Natronosporangium,s__
+B1_bin.44,0.632772801,3111684,0.918559854,3353,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,JANQRA01,s__
+B1_bin.41,0.644559903,2984230,0.939033184,3241,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,DATHWB01,s__
+B1_bin.45,0.703939064,2362338,0.931027651,2736,Bacteria,Gemmatimonadota,Gemmatimonadetes,JACCXV01,JAHWKZ01,,s__
+B1_bin.30,0.67708993,4498847,0.907486296,4428,Bacteria,Actinomycetota,Actinomycetes,Jiangellales,Jiangellaceae,DASUTB01,DASUTB01 sp036374835
+B2_bin.1,0.714512154,2000530,0.943447486,2613,Bacteria,Actinomycetota,Thermoleophilia,Gaiellales,Gaiellaceae,,s__
+B1_bin.52,0.692593598,2571316,0.910528694,2896,Bacteria,Actinomycetota,Thermoleophilia,Solirubrobacterales,Sep-70,VRUE01,s__
+B2_bin.11,0.710392576,2667404,0.928445785,2522,Bacteria,Acidobacteriota,Thermoanaerobaculia,Multivoradales,JAHEKO01,,s__
+B1_bin.50,0.660327355,1815707,0.92144162,2459,Bacteria,Desulfobacterota_E,Deferrimicrobia,Deferrimicrobiales,Deferrimicrobiaceae,,s__
+B2_bin.14,0.724459592,3473026,0.928899467,4103,Bacteria,Actinomycetota,Acidimicrobiia,Acidimicrobiales,JACDCH01,UBA9382,s__
+B1_bin.38,0.643067717,1998959,0.907612412,2422,Bacteria,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,SZUA-36,,s__
+B1_bin.29,0.736453206,2568652,0.915645249,3464,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,Palauibacteraceae,,s__
+B2_bin.19,0.696920374,3042382,0.925552413,3178,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,UBA6960,UBA2982,s__
+B2_bin.17,0.689970393,2758443,0.936433343,3148,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,Palauibacteraceae,JARFPW01,s__
+B2_bin.10,0.488408935,1616590,0.928159892,2257,Bacteria,Pseudomonadota,Gammaproteobacteria,Eutrophobiales,Eutrophobiaceae,SZUA-592,SZUA-592 sp041556555
+B1_bin.27,0.699489283,4825372,0.917515375,4260,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,UBA6960,UBA2589,s__
+B2_bin.13,0.746036846,2567463,0.923273286,2933,Bacteria,Actinomycetota,Actinomycetes,Jiangellales,Jiangellaceae,,s__
+B2_bin.26,0.545207364,2979039,0.883344595,2812,Bacteria,Chloroflexota,Anaerolineae,Anaerolineales,UBA11579,UBA11579,s__
+B1_bin.40,0.588029809,3429753,0.889475423,4372,Bacteria,Pseudomonadota,Gammaproteobacteria,Competibacterales,Competibacteraceae,,s__
+B1_bin.22,0.689797587,3530498,0.930556822,3648,Bacteria,Actinomycetota,Actinomycetes,Propionibacteriales,Nocardioidaceae,Nocardioides,s__
+B2_bin.23,0.693158434,2206220,0.920941701,2475,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,UBA11373,,s__
+B2_bin.33,0.650562569,2304072,0.90949545,2653,Bacteria,Actinomycetota,CADDZG01,JAHWKV01,JAHWKV01,JAHWKV01,s__
+B2_bin.22,0.711129969,3339533,0.940881554,3390,Bacteria,Actinomycetota,Acidimicrobiia,Acidimicrobiales,DASWIA01,,s__
+B2_bin.16,0.505526682,3594833,0.820476501,3733,Bacteria,Desulfobacterota,Syntrophobacteria,BM002,BM002,BM002,s__
+B2_bin.30,0.703161482,2690985,0.952048785,3621,Bacteria,Pseudomonadota,Gammaproteobacteria,Burkholderiales,SG8-39,JAABQT01,s__
+B1_bin.37,0.684145411,6243164,0.924287589,5046,Bacteria,Acidobacteriota,Thermoanaerobaculia,Multivoradales,J023,JAUIJL01,s__
+B2_bin.21,0.484271687,3947499,0.892468117,3718,Bacteria,Chloroflexota,Anaerolineae,Anaerolineales,UBA11858,G519,s__
+B2_bin.44,0.358149268,3106727,0.909210883,3708,Bacteria,Bacteroidota_A,Ignavibacteria,Ignavibacteriales,Ignavibacteriaceae,RBG-16-34-14,s__
+B2_bin.3,0.609572444,2605249,0.912588778,2964,Bacteria,Pseudomonadota,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Erythrobacter,s__
+B2_bin.15,0.709043193,3649198,0.929993111,3800,Bacteria,Acidobacteriota,UBA890,UBA890,WLXD01,,s__
+B2_bin.36,0.676940537,3562338,0.900480527,3528,Bacteria,Pseudomonadota,Alphaproteobacteria,UBA8366,JADFVY01,JBFHDX01,s__
+B2_bin.49,0.718716324,3233028,0.921058834,3249,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,UBA6960,,s__
+B1_bin.51,0.636440908,3325938,0.921981408,3645,Bacteria,Pseudomonadota,Gammaproteobacteria,Woeseiales,Woeseiaceae,IDS-8,s__
+B2_bin.41,0.611620969,3089639,0.915830943,3378,Bacteria,Pseudomonadota,Gammaproteobacteria,Woeseiales,Woeseiaceae,JAXHMR01,s__
+B2_bin.52,0.636887806,2661698,0.923720497,2996,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,JANQRA01,s__
+B2_bin.27,0.663081806,3460107,0.899974481,3945,Bacteria,Pseudomonadota,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Antarcticimicrobium,s__
+B2_bin.20,0.590418625,2719213,0.917324241,2677,Bacteria,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Alcanivoracaceae,PGZG01,PGZG01 sp040235405
+B2_bin.24,0.557061352,4976179,0.89780653,5201,Bacteria,Chloroflexota,Anaerolineae,Aggregatilineales,Phototrophicaceae,DAOTTX01,s__
+B2_bin.47,0.719222685,3395228,0.938261289,3681,Bacteria,Actinomycetota,Actinomycetes,Propionibacteriales,Nocardioidaceae,Nocardioides,s__
+B2_bin.48,0.500185293,2784786,0.912311036,3611,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Zeaxanthinibacter,s__
+B2_bin.100,0.667072053,4096508,0.915466051,3764,Bacteria,Pseudomonadota,Gammaproteobacteria,Woeseiales,Woeseiaceae,IDS-8,s__
+B2_bin.29,0.504974705,4046773,0.826007537,3989,Bacteria,Cyanobacteriota,Cyanobacteriia,Phormidesmidales,,,s__
+B2_bin.35,0.667309676,4224926,0.897388025,4518,Bacteria,Pseudomonadota,Alphaproteobacteria,UBA8366,UBA8366,WHUA01,s__
+B2_bin.4,0.553169688,4244392,0.904392431,4173,Bacteria,Chloroflexota,Anaerolineae,Anaerolineales,UBA4823,DASQQR01,s__
+B2_bin.28,0.625895301,4223160,0.917297711,4240,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,UBA5794,JAAETI01,s__
+B2_bin.50,0.608534823,2343833,0.926336902,2791,Bacteria,Pseudomonadota,Gammaproteobacteria,JBFHQE01,JBFHQE01,JBFHQE01,s__
+B1_bin.34,0.677849066,6124148,0.925347493,6258,Bacteria,Acidobacteriota,Thermoanaerobaculia,Multivoradales,UBA5704,UBA5704,s__
+B2_bin.51,0.675495496,3143716,0.923348992,3790,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,DATHVR01,s__
+B2_bin.25,0.597504784,5760384,0.912957192,6584,Bacteria,Chloroflexota,Anaerolineae,Aggregatilineales,Phototrophicaceae,GCA-2702065,s__
+B2_bin.58,0.723664497,2788574,0.925775325,3498,Bacteria,Actinomycetota,Acidimicrobiia,Acidimicrobiales,AC-14,CADCTB01,s__
+B1_bin.25,0.676054971,8358662,0.906882465,6787,Bacteria,Acidobacteriota,Thermoanaerobaculia,Multivoradales,UBA5704,UBA5704,s__
+B2_bin.59,0.691862247,2669410,0.942469684,3057,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,,s__
+B2_bin.34,0.600240265,5490603,0.90078139,6149,Bacteria,Chloroflexota,Anaerolineae,Promineifilales,Promineifilaceae,JAAYYY01,s__
+B2_bin.38,0.67378446,2649276,0.930636899,3082,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,DATHVR01,s__
+B2_bin.60,0.522777369,3261922,0.896111556,3088,Bacteria,Chloroflexota,Anaerolineae,Anaerolineales,UBA11579,UBA11579,s__
+B2_bin.53,0.735088991,2982813,0.924898745,3010,Bacteria,Actinomycetota,Acidimicrobiia,Acidimicrobiales,AC-14,,s__
+B2_bin.69,0.624917063,1727210,0.883787727,1828,Bacteria,Pseudomonadota,Alphaproteobacteria,Rhizobiales,Methyloligellaceae,Methyloceanibacter,s__
+B2_bin.57,0.726820552,3664507,0.915189683,4162,Bacteria,Actinomycetota,Thermoleophilia,Solirubrobacterales,Solirubrobacteraceae,CADCVQ01,s__
+B2_bin.62,0.707519983,2074087,0.934336409,2184,Bacteria,Chloroflexota,Limnocylindria,QHBO01,QHBO01,,s__
+B2_bin.55,0.687481049,3156247,0.903161254,3473,Bacteria,Pseudomonadota,Alphaproteobacteria,UBA8366,JADFVY01,JBFHDX01,s__
+B2_bin.5,0.501704531,2621836,0.867027533,2950,Bacteria,Nitrospirota,Nitrospiria,Nitrospirales,UBA8639,JACKFE01,s__
+B2_bin.77,0.720905899,3568653,0.922648125,3851,Bacteria,Actinomycetota,Nitriliruptoria,Nitriliruptorales,Nitriliruptoraceae,JBFGFG01,s__
+B2_bin.63,0.612481846,2350726,0.929245688,2859,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,JAHEDJ01,JAHEDJ01,s__
+B2_bin.43,0.543309161,4793166,0.89270912,5773,Bacteria,Chloroflexota,Anaerolineae,Anaerolineales,UBA4823,DASQQR01,s__
+B2_bin.82,0.562616851,3354153,0.921934092,3338,Bacteria,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Oleiphilaceae,Marinobacter,Marinobacter salinus
+B2_bin.64,0.501733002,3361507,0.915037809,3316,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Zeaxanthinibacter,s__
+B2_bin.78,0.693468743,2223186,0.935773705,2820,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,,s__
+B2_bin.32,0.543996883,3277039,0.857163738,3341,Bacteria,Pseudomonadota,Gammaproteobacteria,Thiohalomonadales,Thiohalomonadaceae,JBFEYJ01,JBFEYJ01 sp041562215
+B2_bin.90,0.288093953,2710883,0.72401723,3163,Archaea,Thermoproteota,Nitrososphaeria,Nitrososphaerales,Nitrososphaeraceae,TH1177,TH1177 sp025922715
+B2_bin.67,0.687630914,3578219,0.891312969,4244,Bacteria,Pseudomonadota,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Roseitranquillus,s__
+B2_bin.12,0.573073452,5617430,0.8871694,5552,Bacteria,Chloroflexota,Anaerolineae,Aggregatilineales,Aggregatilineaceae,JALSSH01,s__
+B2_bin.74,0.638825312,3186004,0.928719487,2985,Bacteria,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,SZUA-36,JAUIBE01,s__
+B2_bin.68,0.574110413,2404851,0.912097673,2894,Bacteria,Pseudomonadota,Gammaproteobacteria,Competibacterales,Competibacteraceae,,s__
+B2_bin.83,0.688422281,3491344,0.896170071,3835,Bacteria,Pseudomonadota,Alphaproteobacteria,Kiloniellales,J153,JACZVL01,s__
+B2_bin.72,0.636701206,4355459,0.906100597,4009,Bacteria,Chloroflexota,Anaerolineae,JAAYZQ01,JAAYZQ01,JAMJFU01,s__
+B2_bin.75,0.675043632,5405975,0.862272948,4627,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,KS3-K002,,s__
+B2_bin.61,0.4494384,4944889,0.866526428,4408,Bacteria,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Vibrionaceae,Vibrio,Vibrio natriegens
+B2_bin.80,0.682650688,3244094,0.89946808,3832,Bacteria,Pseudomonadota,Alphaproteobacteria,Kiloniellales,J153,,s__
+B2_bin.89,0.630455666,3287362,0.860123102,3245,Bacteria,Pseudomonadota,Gammaproteobacteria,Thiohalomonadales,Thiohalomonadaceae,,s__
+B2_bin.73,0.614571428,2925053,0.907114845,2919,Bacteria,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Porticoccaceae,,s__
+C_bin.1,0.671389519,2526298,0.898159679,3232,Archaea,Halobacteriota,Halobacteria,Halobacteriales,Haloarculaceae,JAZKTI01,s__
+B2_bin.84,0.489926486,4690965,0.883369413,4442,Bacteria,Chloroflexota,Anaerolineae,Anaerolineales,UBA4823,,s__
+B2_bin.98,0.446298592,2134134,0.90321976,2648,Bacteria,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Kangiellaceae,Kangiella,s__
+B2_bin.6,0.662244629,2597596,0.938107004,3142,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,JARDZU01,s__
+B2_bin.92,0.471117802,2444395,0.902188067,2662,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Zeaxanthinibacter,s__
+B2_bin.95,0.729086612,4534165,0.903381108,4646,Bacteria,Actinomycetota,Acidimicrobiia,Acidimicrobiales,JACDCH01,ZC4RG19,ZC4RG19 sp016936035
+B2_bin.54,0.713477126,6240856,0.85608048,5291,Bacteria,Actinomycetota,Actinomycetes,Streptomycetales,Streptomycetaceae,Streptomyces,s__
+B2_bin.9,0.716413981,2468944,0.935162158,3244,Bacteria,Actinomycetota,UBA4738,UBA4738,HRBIN12,HRBIN12,HRBIN12 sp036845105
+B2_bin.99,0.728115785,2743153,0.923249633,2797,Bacteria,Actinomycetota,Thermoleophilia,Solirubrobacterales,Thermoleophilaceae,JAAYBF01,s__
+B2_bin.86,0.401083537,2920252,0.90918181,3059,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Christiangramia,s__
+B2_bin.93,0.440860626,4474185,0.857834667,3925,Bacteria,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Shewanellaceae,Shewanella,s__
+C_bin.121,0.687979679,2665977,0.926894343,2894,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,Palauibacteraceae,JARFPW01,s__
+B2_bin.8,0.628875186,3470059,0.875020569,3388,Bacteria,Pseudomonadota,Gammaproteobacteria,Thiohalomonadales,Thiohalomonadaceae,,s__
+B2_bin.66,0.691895224,3818847,0.9304908,3869,Bacteria,Actinomycetota,Nitriliruptoria,Nitriliruptorales,Nitriliruptoraceae,JBFJMP01,s__
+C_bin.11,0.619169679,2876428,0.92708074,3233,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,Ww567,s__
+C_bin.104,0.715271276,3945682,0.926220359,3600,Bacteria,Acidobacteriota,Thermoanaerobaculia,Multivoradales,DATKCC01,DATKCC01,s__
+C_bin.105,0.696581913,1568743,0.943193372,1841,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,Palauibacteraceae,JARFPW01,s__
+B2_bin.87,0.341407781,2818067,0.880833209,2723,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Marinifilaceae,G963666945,s__
+C_bin.118,0.701142548,3536569,0.898314157,3590,Bacteria,Acidobacteriota,UBA890,UBA890,,,s__
+C_bin.12,0.654101858,1496773,0.927012981,1724,Bacteria,Pseudomonadota,Alphaproteobacteria,Sphingomonadales,SMXR01,,s__
+C_bin.101,0.711176917,2922720,0.864073534,3572,Archaea,Halobacteriota,Halobacteria,Halobacteriales,UBA12382,,s__
+C_bin.124,0.675725342,2891703,0.890846674,2733,Bacteria,Pseudomonadota,Gammaproteobacteria,SMWH01,,,s__
+C_bin.120,0.611064292,2991443,0.891539635,3133,Bacteria,Pseudomonadota,Gammaproteobacteria,HK1,HK1,CAMYJH01,s__
+C_bin.10,0.396697514,2787900,0.907166326,2616,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Salinimicrobium,s__
+B2_bin.70,0.551936125,4969075,0.902596761,5367,Bacteria,Chloroflexota,Anaerolineae,Anaerolineales,UBA4823,DASQQR01,s__
+C_bin.111,0.646451793,2574441,0.910795392,3107,Archaea,Halobacteriota,Halobacteria,Halobacteriales,Haloarculaceae,Natronomonas,s__
+B2_bin.85,0.678354099,3912094,0.890732943,4582,Bacteria,Pseudomonadota,Alphaproteobacteria,Kiloniellales,Kiloniellaceae,Pelagibius,s__
+C_bin.135,0.706445845,2375313,0.917781362,2556,Bacteria,Deinococcota,Deinococci,Deinococcales,Trueperaceae,SLSQ01,s__
+B1_bin.33,0.629061589,6139685,0.873332752,5989,Bacteria,Acidobacteriota,UBA6911,RPQK01,JANQFM01,,s__
+C_bin.103,0.72328646,4038935,0.911116916,3858,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,UBA6960,,s__
+C_bin.129,0.426207261,2555536,0.908480648,2769,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Salinimicrobium,s__
+B2_bin.96,0.570018645,5508597,0.881106024,5806,Bacteria,Tectomicrobia,Entotheonellia,Entotheonellales,Entotheonellaceae,,s__
+C_bin.123,0.64374766,2470395,0.927446825,2594,Bacteria,Acidobacteriota,Terriglobia,Acidiferrales,2-02-FULL-67-57,DATEUS01,s__
+C_bin.130,0.460446962,3143665,0.887120288,3007,Bacteria,Bacteroidota_A,Rhodothermia,Balneolales,Balneolaceae,Halalkalibaculum,s__
+C_bin.107,0.715530209,3030030,0.907719065,3355,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,Palauibacteraceae,,s__
+B2_bin.88,0.714465555,3998782,0.90837385,4144,Bacteria,Planctomycetota,UBA11346,UBA11346,UBA11346,GH22,s__
+B2_bin.46,0.500964459,6390631,0.905391971,6574,Bacteria,Chloroflexota,Anaerolineae,Aggregatilineales,J027,JAKEEQ01,s__
+B2_bin.65,0.70422194,2348636,0.917838694,2613,Bacteria,Chloroflexota,Limnocylindria,QHBO01,QHBO01,JACDBZ01,s__
+C_bin.134,0.668242955,2161618,0.904458142,2901,Archaea,Halobacteriota,Halobacteria,Halobacteriales,Haloferacaceae,Halolamina,s__
+C_bin.143,0.680047587,2387230,0.911845109,2605,Bacteria,Pseudomonadota,Gammaproteobacteria,Nevskiales,Salinisphaeraceae,APNM01,s__
+B2_bin.7,0.573557242,3158377,0.901184058,3416,Bacteria,Pseudomonadota,Alphaproteobacteria,Caulobacterales,Parvularculaceae,Hyphococcus,s__
+C_bin.132,0.694383228,4466836,0.911159264,4226,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,RSA9,JAWVYT01,s__
+C_bin.142,0.422714934,2228393,0.903115833,2414,Bacteria,Bacteroidota_A,Rhodothermia,Balneolales,Balneolaceae,Fodinibius,s__
+C_bin.136,0.691765704,3133905,0.907863193,3397,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,UBA6960,,s__
+C_bin.125,0.65331237,4461186,0.873527802,4099,Bacteria,Pseudomonadota,Gammaproteobacteria,Arenicellales,JAANXG01,JAANXG01,s__
+C_bin.126,0.711563354,2791958,0.88865556,2999,Bacteria,Pseudomonadota,Alphaproteobacteria,Kiloniellales,Rhodovibrionaceae,Rhodovibrio,s__
+C_bin.128,0.71960566,4951366,0.890548588,4632,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,UBA6960,DASWKP01,s__
+C_bin.133,0.480175815,2620032,0.928210419,3303,Bacteria,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Alteromonadaceae,Idiomarina,s__
+C_bin.13,0.719034162,3417839,0.911397816,3379,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,Palauibacteraceae,,s__
+C_bin.137,0.720688938,2249202,0.928508867,2247,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,Palauibacteraceae,,s__
+C_bin.112,0.676032547,6038514,0.902907735,5240,Bacteria,Acidobacteriota,Thermoanaerobaculia,Multivoradales,,,s__
+C_bin.122,0.709773541,1886389,0.921301492,2227,Bacteria,Actinomycetota,Thermoleophilia,Solirubrobacterales,Sep-70,VRUE01,s__
+C_bin.127,0.729201185,4145801,0.921469458,4183,Bacteria,Actinomycetota,Nitriliruptoria,Nitriliruptorales,Nitriliruptoraceae,JBFJMP01,s__
+C_bin.140,0.665278916,3840027,0.890805455,4130,Bacteria,Pseudomonadota,Alphaproteobacteria,Kiloniellales,Kiloniellaceae,Pelagibius,s__
+C_bin.164,0.650179456,2445997,0.929699832,2698,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,JANQRA01,s__
+C_bin.14,0.665769145,2773191,0.911954496,3903,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,ZC4RG17,s__
+C_bin.119,0.715667397,3787100,0.915343403,3866,Bacteria,Actinomycetota,Nitriliruptoria,Nitriliruptorales,Nitriliruptoraceae,JBFJMP01,s__
+C_bin.146,0.7082549,2897903,0.88073997,3126,Bacteria,Pseudomonadota,Alphaproteobacteria,Kiloniellales,Rhodovibrionaceae,,s__
+C_bin.147,0.714354833,2108182,0.940570122,2257,Bacteria,Gemmatimonadota,Gemmatimonadetes,JACCXV01,JAHWKZ01,JAICNR01,s__
+C_bin.141,0.548075113,3027242,0.930769327,3744,Bacteria,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Azotimanducaceae,JBBDSF01,s__
+C_bin.158,0.407832249,1432692,0.89766328,1691,Bacteria,Patescibacteriota,Microgenomatia,GWA2-44-7,UBA8517,,s__
+C_bin.152,0.731725474,2387066,0.917118756,2596,Bacteria,Actinomycetota,Nitriliruptoria,Nitriliruptorales,Nitriliruptoraceae,JAWVZB01,s__
+B2_bin.37,0.46325969,7149858,0.823396912,6940,Bacteria,Cyanobacteriota,Cyanobacteriia,Cyanobacteriales,Coleofasciculaceae,JBFLZA01,s__
+C_bin.113,0.709525242,3820869,0.917103675,3868,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,UBA6960,,s__
+C_bin.150,0.643450076,3077196,0.867582045,3071,Bacteria,Pseudomonadota,Alphaproteobacteria,Rhizobiales,Rhodomicrobiaceae,Dichotomicrobium,s__
+C_bin.115,0.68662945,3058341,0.9340515,3457,Bacteria,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,SZUA-38,JBFGYD01,s__
+C_bin.149,0.713402871,3868992,0.902701531,3553,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,Palauibacteraceae,,s__
+C_bin.168,0.653919674,1712247,0.898576549,2060,Archaea,Halobacteriota,Halobacteria,Halobacteriales,UBA12382,,s__
+C_bin.102,0.727060095,4920999,0.901965231,4416,Bacteria,Acidobacteriota,Thermoanaerobaculia,Multivoradales,DATKCC01,,s__
+C_bin.145,0.679156909,4535167,0.926088499,4496,Bacteria,Acidobacteriota,Thermoanaerobaculia,Multivoradales,,,s__
+C_bin.116,0.673922441,3809977,0.922344676,3769,Bacteria,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,SZUA-36,CALKKN01,s__
+C_bin.162,0.730400331,3670687,0.901313569,4310,Bacteria,Actinomycetota,Acidimicrobiia,Acidimicrobiales,JACDCH01,,s__
+C_bin.110,0.589405402,5567007,0.921936689,5096,Bacteria,Chloroflexota,Anaerolineae,Promineifilales,Promineifilaceae,JAAYYY01,s__
+B2_bin.97,0.618202182,7579344,0.874412878,6352,Bacteria,Acidobacteriota,Terriglobia,Bryobacterales,UBA6623,JBBDWJ01,s__
+C_bin.144,0.627200418,3151106,0.894430083,3290,Bacteria,Verrucomicrobiota,Verrucomicrobiia,Opitutales,Opitutaceae,,s__
+C_bin.161,0.704030319,2498239,0.913128007,2806,Bacteria,Chloroflexota,Limnocylindria,Limnocylindrales,CSP1-4,JAFMJV01,s__
+C_bin.173,0.741600513,2796778,0.90363411,2624,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,Palauibacteraceae,,s__
+C_bin.169,0.64048711,2253947,0.911944691,2319,Bacteria,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,SZUA-36,JABDJL01,s__
+B2_bin.71,0.63716606,4050798,0.907067941,4076,Bacteria,Pseudomonadota,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Oricola,Oricola nitratireducens
+C_bin.167,0.649618701,3927233,0.884910317,3963,Bacteria,Pseudomonadota,Gammaproteobacteria,Arenicellales,JAANXG01,JAANXG01,JAANXG01 sp041641695
+C_bin.156,0.451532444,2762776,0.873099013,2496,Bacteria,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,UBA3067,JBECKY01,JBECKY01 sp040235475
+C_bin.159,0.729085795,2562708,0.930006072,2903,Bacteria,Gemmatimonadota,Gemmatimonadetes,JACCXV01,JAHWKZ01,,s__
+C_bin.138,0.614478026,4680348,0.876081437,4817,Bacteria,Bacteroidota_A,Rhodothermia,Rhodothermales,Salinibacteraceae,,s__
+C_bin.160,0.732152801,2761862,0.925409018,2630,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,Palauibacteraceae,,s__
+C_bin.172,0.505268174,2039701,0.920467755,1930,Bacteria,Chlamydiota,Chlamydiia,Chlamydiales,SLOH01,,s__
+C_bin.22,0.36476435,1520006,0.898814873,2082,Archaea,Thermoproteota,Nitrososphaeria,Nitrososphaerales,Nitrosopumilaceae,JAWVZS01,s__
+C_bin.165,0.664058052,3894277,0.897523212,3852,Bacteria,Pseudomonadota,Gammaproteobacteria,Arenicellales,JAANXG01,JAANXG01,s__
+B1_bin.43,0.489154411,5423772,0.837300499,6354,Bacteria,Cyanobacteriota,Cyanobacteriia,Elainellales,Elainellaceae,,s__
+C_bin.25,0.567421564,1990691,0.906128575,2243,Bacteria,Pseudomonadota,Gammaproteobacteria,Eutrophobiales,Eutrophobiaceae,Methylohalomonas,s__
+C_bin.175,0.705495061,2700352,0.910227259,3181,Bacteria,Pseudomonadota,Alphaproteobacteria,Bin65,,,s__
+C_bin.131,0.727019407,6073157,0.907178425,5609,Bacteria,Myxococcota_A,UBA9160,UBA9160,,,s__
+C_bin.184,0.714471891,2344158,0.92980422,2932,Bacteria,Actinomycetota,Acidimicrobiia,IMCC26256,PALSA-555,DATBSK01,s__
+C_bin.17,0.616357547,2270536,0.922278264,2725,Bacteria,Bacteroidota_A,Rhodothermia,Balneolales,Balneolaceae,JAXHMM01,s__
+C_bin.178,0.716491881,3662202,0.896373548,3943,Bacteria,Actinomycetota,Nitriliruptoria,Euzebyales,Egibacteraceae,QS-5-72-10,s__
+C_bin.180,0.653965625,2881942,0.882094782,3538,Archaea,Halobacteriota,Halobacteria,Halobacteriales,Haloarculaceae,Haloarcula,s__
+C_bin.154,0.724079054,6042970,0.860111005,4193,Bacteria,Planctomycetota,UBA8108,UBA8108,UBA8108,,s__
+C_bin.19,0.737441586,3049569,0.91222399,2928,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,Palauibacteraceae,,s__
+C_bin.186,0.67169702,2937037,0.901317893,3707,Bacteria,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Halomonadaceae,Halomonas,s__
+C_bin.176,0.698259681,4531065,0.89008434,4600,Bacteria,Pseudomonadota,Alphaproteobacteria,JAJFFI01,JAJFFI01,,s__
+C_bin.21,0.700402284,2797281,0.890882968,2517,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,Palauibacteraceae,,s__
+C_bin.34,0.462832015,1020623,0.921591028,1315,Archaea,Nanohalarchaeota,Nanosalinia,Nanosalinales,Nanosalinaceae,JBEQAZ01,s__
+C_bin.20,0.435213345,3041506,0.863882235,3172,Bacteria,Bacteroidota_A,Rhodothermia,Balneolales,Balneolaceae,Fodinibius,s__
+C_bin.114,0.647526388,6979853,0.90961887,7226,Bacteria,Acidobacteriota,Vicinamibacteria,Marinacidobacterales,SMYC01,CAMYKY01,s__
+C_bin.18,0.577145099,4570932,0.878151545,4753,Bacteria,Desulfobacterota_B,Binatia,UBA9968,UBA9968,DP-20,s__
+C_bin.23,0.620776149,4472311,0.875038431,4159,Bacteria,Pseudomonadota,Gammaproteobacteria,HK1,HK1,CAMYJH01,CAMYJH01 sp035471965
+C_bin.16,0.481372377,2694654,0.878412961,2788,Bacteria,Bacteroidota_A,Rhodothermia,Balneolales,Balneolaceae,,s__
+C_bin.151,0.690679339,5773271,0.907763207,5301,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,UBA6960,UBA2589,s__
+C_bin.181,0.513120107,4571914,0.906973972,4866,Bacteria,Chloroflexota,Anaerolineae,Anaerolineales,Villigracilaceae,JAABUE01,s__
+C_bin.2,0.473888146,2568929,0.902660603,2748,Bacteria,Bacteroidota_A,Rhodothermia,Balneolales,Balneolaceae,Fodinibius,s__
+C_bin.166,0.679894997,3479905,0.901152761,3441,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,UBA6960,,s__
+C_bin.31,0.389635111,2252084,0.92268006,2561,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Christiangramia,s__
+C_bin.32,0.640380788,3131821,0.888237546,3451,Bacteria,Pseudomonadota,Gammaproteobacteria,HK1,HK1,CAMYJH01,s__
+C_bin.148,0.696687343,7482965,0.902382411,6315,Bacteria,Acidobacteriota,Thermoanaerobaculia,Multivoradales,Multivoraceae,,s__
+C_bin.42,0.723080622,2100225,0.928302444,2400,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,Palauibacteraceae,,s__
+C_bin.24,0.716558594,3477904,0.924482677,3448,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,UBA6960,,s__
+C_bin.174,0.670254072,4454845,0.919704053,5363,Bacteria,Acidobacteriota,Thermoanaerobaculia,Multivoradales,,,s__
+C_bin.30,0.636808896,3312672,0.905730178,3553,Bacteria,Chloroflexota,Dehalococcoidia,SM23-28-2,RBG-16-64-32,JACZRQ01,s__
+C_bin.49,0.654313177,2141797,0.866382295,2882,Bacteria,Chloroflexota,Dehalococcoidia,UBA3495,UBA3495,,s__
+C_bin.37,0.649647041,2292902,0.88639593,3028,Archaea,Halobacteriota,Halobacteria,Halobacteriales,Haloferacaceae,,s__
+C_bin.52,0.66295416,2961072,0.913705915,2765,Bacteria,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,SZUA-36,,s__
+C_bin.182,0.608404468,2907620,0.900761104,3293,Bacteria,Chloroflexota,Anaerolineae,Anaerolineales,E44-bin32,DASWJQ01,s__
+C_bin.56,0.743510337,3133830,0.91309452,2905,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,Palauibacteraceae,,s__
+C_bin.4,0.688463883,2421716,0.899346579,2468,Bacteria,Pseudomonadota,Alphaproteobacteria,DATDPM01,DATDPM01,,s__
+C_bin.43,0.742783138,2624929,0.880677154,2736,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,Palauibacteraceae,,s__
+C_bin.66,0.43545788,2279984,0.864071415,2456,Bacteria,Desulfobacterota_D,UBA1144,Nemesobacterales,JAJCZQ01,,s__
+C_bin.183,0.718056425,4887900,0.91040099,4261,Bacteria,Acidobacteriota,UBA890,UBA890,,,s__
+C_bin.46,0.752924346,3353143,0.885465368,3197,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,Palauibacteraceae,,s__
+C_bin.171,0.687216468,2743514,0.882997134,3265,Archaea,Thermoplasmatota,SW-10-69-26,SW-10-69-26,SW-10-69-26,,s__
+C_bin.51,0.719830175,3501719,0.918283563,3732,Bacteria,Actinomycetota,Nitriliruptoria,Nitriliruptorales,JAHWKY01,DASWKO01,s__
+C_bin.27,0.699464483,3954125,0.920009863,3486,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,UBA6960,DASWKP01,s__
+C_bin.67,0.691944739,2206893,0.903136219,2630,Archaea,Halobacteriota,Halobacteria,Halobacteriales,Haloarculaceae,Halosegnis,s__
+C_bin.185,0.547375819,5947475,0.841537459,6119,Bacteria,Cyanobacteriota,Cyanobacteriia,Cyanobacteriales,Microcoleaceae,Limnospira,s__
+C_bin.76,0.678246477,2576755,0.902859216,2585,Bacteria,Pseudomonadota,Gammaproteobacteria,SMWH01,,,s__
+C_bin.35,0.688303181,4574936,0.914133225,5515,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,UBA6960,JAHEKK01,s__
+C_bin.68,0.65512082,3600429,0.892285614,3414,Bacteria,Pseudomonadota,Gammaproteobacteria,Arenicellales,JAANXG01,JAANXG01,s__
+C_bin.50,0.663024834,2879503,0.884228285,3082,Bacteria,Pseudomonadota,Gammaproteobacteria,XJ16,Halofilaceae,Halofilum,s__
+C_bin.53,0.684484249,3192633,0.918606367,3414,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,Palauibacteraceae,JARFPW01,s__
+C_bin.41,0.696832196,3872809,0.898343296,4170,Bacteria,Pseudomonadota,Gammaproteobacteria,Rariloculales,Rariloculaceae,,s__
+C_bin.80,0.648949059,2458797,0.921172834,2526,Bacteria,Chloroflexota,Anaerolineae,Anaerolineales,E44-bin32,,s__
+C_bin.39,0.671640428,2901359,0.899639789,2795,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,UBA6960,,s__
+C_bin.61,0.743785752,3186548,0.909972484,3308,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,Palauibacteraceae,,s__
+C_bin.62,0.632290122,3074674,0.887592311,3497,Archaea,Halobacteriota,Halobacteria,Halobacteriales,Haloarculaceae,Natronomonas,s__
+C_bin.45,0.710327228,3241896,0.91339204,3862,Bacteria,Actinomycetota,Actinomycetes,Jiangellales,Jiangellaceae,DASUTB01,s__
+C_bin.60,0.727527897,3152976,0.929450462,4290,Bacteria,Actinomycetota,Nitriliruptoria,Nitriliruptorales,Nitriliruptoraceae,JBFJMP01,s__
+C_bin.28,0.522511817,3268550,0.877752214,3183,Bacteria,Bacteroidota_A,Rhodothermia,Balneolales,Balneolaceae,,s__
+C_bin.5,0.719320227,5683484,0.914704959,4875,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,UBA6960,DASWKP01,s__
+C_bin.3,0.630197267,6299802,0.866417706,5584,Bacteria,Planctomycetota,Planctomycetia,Pirellulales,Lacipirellulaceae,,s__
+C_bin.65,0.535467258,3504373,0.897044921,4245,Bacteria,Acidobacteriota,UBA6911,RPQK01,JAPXNP01,DATGOF01,s__
+C_bin.78,0.699132488,4655265,0.906465905,4791,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,RSA9,JAWVYT01,s__
+C_bin.59,0.655478772,2872450,0.881889676,3148,Bacteria,Pseudomonadota,Gammaproteobacteria,SMWH01,,,s__
+C_bin.48,0.58403493,5219883,0.907627815,4864,Bacteria,Chloroflexota,Anaerolineae,Anaerolineales,UBA4823,,s__
+C_bin.91,0.690050281,2807436,0.862485556,2828,Archaea,Thermoplasmatota,SW-10-69-26,SW-10-69-26,SW-10-69-26,PWVY01,s__
+C_bin.63,0.698742745,5204273,0.908063624,6164,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,RSA9,JAWVYT01,s__
+C_bin.38,0.600831705,5076558,0.908242159,4583,Bacteria,Chloroflexota,Anaerolineae,Promineifilales,Promineifilaceae,JAAYYY01,s__
+C_bin.96,0.444679278,2076645,0.906655687,2376,Bacteria,Bacteroidota_A,Rhodothermia,Balneolales,Balneolaceae,SMO-BIN1,s__
+C_bin.58,0.601395019,4287252,0.902812804,4281,Bacteria,Chloroflexota,Anaerolineae,Promineifilales,Promineifilaceae,JAAYYY01,s__
+C_bin.8,0.742059698,3515011,0.888375029,3235,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,Palauibacteraceae,,s__
+C_bin.75,0.593558892,6451375,0.918807696,5895,Bacteria,Chloroflexota,Anaerolineae,Promineifilales,Promineifilaceae,JAAYYY01,s__
+C_bin.93,0.617456844,1735961,0.928074997,1992,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,MA-ANB-1,s__
+C_bin.73,0.68524916,4150645,0.89758411,3787,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,UBA6960,,s__
+C_bin.54,0.563191322,5990696,0.902980555,5655,Bacteria,Chloroflexota,Anaerolineae,Aggregatilineales,Phototrophicaceae,DAOTUL01,s__
+C_bin.100,0.61076121,3038004,0.929212733,3654,Bacteria,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Oleiphilaceae,Halospina,s__
+C_bin.7,0.705785245,3152952,0.935151566,3437,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,UBA6960,,s__
+C_bin.86,0.678730022,5945803,0.889149035,5330,Bacteria,Acidobacteriota,Thermoanaerobaculia,Multivoradales,,,s__
+C_bin.89,0.443069589,2891293,0.876792148,2905,Bacteria,Bacteroidota_A,Rhodothermia,Balneolales,Balneolaceae,Halalkalibaculum,s__
+C_bin.83,0.717604102,4045080,0.916241459,3816,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,Palauibacteraceae,Palauibacter,s__
+C_bin.57,0.726439864,6396769,0.88914638,5411,Bacteria,Acidobacteriota,UBA890,UBA890,UBA890,,s__
+C_bin.82,0.702013994,4578960,0.893245191,4681,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,RSA9,JAWVYT01,s__
+C_bin.81,0.73421649,2827207,0.930777619,3485,Bacteria,Gemmatimonadota,Gemmatimonadetes,JACCXV01,JAHWKZ01,JAHWKZ01,s__
+C_bin.90,0.681351145,2156926,0.902065254,2747,Archaea,Halobacteriota,Halobacteria,Halobacteriales,Haloferacaceae,Haloplanus,s__
+C_bin.94,0.692310181,3369598,0.923486422,3745,Bacteria,Gemmatimonadota,Gemmatimonadetes,Palauibacterales,Palauibacteraceae,JARFPW01,s__
+C_bin.106,0.67977232,5448183,0.918694728,5335,Bacteria,Acidobacteriota,Terriglobia,Bryobacterales,UBA6623,,s__
+C_bin.72,0.696079404,3113583,0.918658343,3313,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,RSA9,JAWVYT01,s__
+C_bin.87,0.599079042,6155550,0.897261983,7389,Bacteria,Chloroflexota,Anaerolineae,Promineifilales,Promineifilaceae,JAAYYY01,s__
+C_bin.92,0.622267582,6132251,0.861117883,5772,Bacteria,Acidobacteriota,Terriglobia,Bryobacterales,UBA6623,JBBDWJ01,s__
+C_bin.9,0.709572445,4788881,0.916645872,4830,Bacteria,Gemmatimonadota,Gemmatimonadetes,Longimicrobiales,RSA9,JAWVYT01,s__
+C_bin.88,0.709674677,3846578,0.892951605,3562,Bacteria,Acidobacteriota,UBA890,UBA890,,,s__
+C_bin.79,0.498543403,4050881,0.861583196,5080,Bacteria,Cyanobacteriota,Cyanobacteriia,FACHB-46,FACHB-46,,s__
+C_bin.15,0.67875676,3983785,0.914315406,4366,Bacteria,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycobacterium,s__
+C_bin.44,0.618885399,5157614,0.864808805,5473,Bacteria,Desulfobacterota_B,Binatia,UBA9968,JAJDTQ01,,s__
+C_bin.33,0.675174119,2357149,0.903685342,2400,Bacteria,Pseudomonadota,Gammaproteobacteria,SMWH01,,,s__
+C_bin.163,0.635374948,2668182,0.916775917,3606,Bacteria,Actinomycetota,Acidimicrobiia,UBA5794,ZC4RG35,Ww567,s__
+C_bin.70,0.67932554,3144619,0.926567575,3158,Bacteria,Pseudomonadota,Gammaproteobacteria,Woeseiales,Woeseiaceae,Woeseia,s__
+C_bin.55,0.626385041,3226980,0.889172229,3389,Bacteria,Chloroflexota,Anaerolineae,Anaerolineales,E44-bin32,DASWJQ01,s__
+B2_bin.79,0.717982835,8204029,0.867049227,8613,Bacteria,Actinomycetota,Actinomycetes,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces atrovirens
+C_bin.139,0.57279595,6018398,0.905763793,7246,Bacteria,Chloroflexota,Anaerolineae,Ardenticatenales,Ardenticatenaceae,,s__
+C_bin.6,0.602289181,4143928,0.907802935,3925,Bacteria,Chloroflexota,Anaerolineae,Promineifilales,Promineifilaceae,JAAYYY01,s__
+C_bin.40,0.42855881,2784997,0.891209937,2850,Bacteria,Bacteroidota_A,Rhodothermia,Balneolales,Balneolaceae,Fodinibius,Fodinibius salicampi
+C_bin.179,0.590264309,6777557,0.89927344,7564,Bacteria,Chloroflexota,Anaerolineae,Promineifilales,Promineifilaceae,JAAYYY01,s__
+C_bin.97,0.659404346,4788919,0.879905256,4681,Bacteria,Pseudomonadota,Gammaproteobacteria,Arenicellales,,,s__
+C_bin.69,0.623402222,3882033,0.870799141,4115,Archaea,Halobacteriota,Halobacteria,Halobacteriales,Haladaptataceae,Halorussus,Halorussus halophilus
+C_bin.84,0.655859784,2913452,0.895776213,2667,Bacteria,Acidobacteriota,Thermoanaerobaculia,Multivoradales,JAHEKO01,,s__
+C_bin.77,0.533108582,6419529,0.864997572,6928,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,,s__
+C_bin.95,0.603000651,5447218,0.90319811,5793,Bacteria,Chloroflexota,Anaerolineae,Promineifilales,Promineifilaceae,JAAYYY01,s__
+C_bin.99,0.680520572,4505733,0.926347389,4214,Bacteria,Acidobacteriota,Thermoanaerobaculia,Multivoradales,,,s__

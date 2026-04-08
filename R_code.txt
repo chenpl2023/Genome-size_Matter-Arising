@@ -1,0 +1,96 @@
+setwd("E:/陈沛霖-病原菌/东营/Feng_et_al")
+recA <- read.csv("Genome_Size.csv",header = T,row.names = 1)
+library(ggplot2)
+
+MAG_abu <- read.csv("MAG_relative.csv",header = T,row.names = 1)
+Soil <- read.csv("Genome_Size.csv",header = T,row.names = 1)
+MAG_normalized  <- data.frame(t(MAG_abu))
+row.names(Soil) <- Soil$Sample_ID
+MAG_normalized <- MAG_normalized[row.names(Soil),]
+row.names(Soil)==row.names(MAG_normalized)
+
+library(psych)
+library(tidyverse)
+library(reshape2)
+library(RColorBrewer)
+cor_gs_soil <- corr.test(Soil[,c(4)],MAG_normalized,method="spearman",adjust="fdr", alpha=.05, ci=FALSE)
+r <- 
+  cor_gs_soil$r %>% 
+  melt() %>% 
+  set_names(c('tax', 'Index', 'r'))
+p <- 
+  cor_gs_soil$p %>% 
+  melt() %>% 
+  set_names(c('tax_p', 'Index_p', 'P_value'))
+
+cor_gs_soil_2 <- cbind(r,p)
+
+colnames(cor_gs_soil_2)[2] <- 'Genome'
+
+MAG_GS <- read.csv("MAG_GS.csv",header = T)
+cor_gs_soil_2 <- left_join(cor_gs_soil_2,MAG_GS,by='Genome')
+
+cor_gs_soil_2[which(cor_gs_soil_2$P_value < 0.01 & cor_gs_soil_2$r >= 0.5 ),'Class1'] <- 'Tole'
+cor_gs_soil_2[which(cor_gs_soil_2$P_value < 0.01 & cor_gs_soil_2$r <= -0.5 ),'Class1'] <- 'Sens'
+cor_gs_soil_2[which(cor_gs_soil_2$P_value > 0.01 | abs(cor_gs_soil_2$r) < 0.5),'Class1'] <- 'Inse'
+
+MAG.relabu1 <- data.frame(t(MAG_normalized))
+
+MAG.relabu1$max_value <- apply(MAG.relabu1, 1, mean)
+MAG.relabu1$Genome <- row.names(MAG.relabu1)
+cor_gs_soil_2 <- left_join(cor_gs_soil_2,MAG.relabu1[,c(38,39)],by='Genome')
+
+
+j <- ggplot(data = subset(cor_gs_soil_2, cor_gs_soil_2$Kingdom == 'Bacteria'), aes(x = (Genome.size/1000000),  y = r)) +
+  geom_point( aes(color=Class1,size = max_value),  alpha = 1)+
+  labs(y="Correlation to EC",x="Genome size (Mb)")+
+  theme_bw()+scale_color_manual(values=c("#F39C12","#27AE60","#C0392B"))+
+  theme(strip.text = element_text(size = 15,face="bold"),
+        panel.spacing = unit(0, "lines"),
+        legend.text = element_text(colour="black", size=12, face="bold"),
+        axis.text=element_text(size=10,face="bold"),
+        axis.title=element_text(size=15,face="bold"),title=element_text(size=12,face="bold"),legend.position = 'none')
+
+k <- ggplot(data = subset(cor_gs_soil_2, cor_gs_soil_2$Kingdom == 'Archaea'), aes(x = (Genome.size/1000000),  y = r)) +
+  geom_point( aes(color=Class1,size = max_value),  alpha = 1)+
+  labs(y="Correlation to EC",x="Genome size (Mb)")+
+  theme_bw()+scale_color_manual(values=c("#F39C12","#27AE60","#C0392B"))+
+  theme(strip.text = element_text(size = 15,face="bold"),
+        panel.spacing = unit(0, "lines"),
+        legend.text = element_text(colour="black", size=12, face="bold"),
+        axis.text=element_text(size=10,face="bold"),
+        axis.title=element_text(size=15,face="bold"),title=element_text(size=12,face="bold"),legend.position = 'none')
+
+
+ggarrange(j,k,labels = c("a","b"),ncol=2,nrow=1)
+ggsave("Salt_genome_MAG_cor.pdf",width = 8, height =4)
+
+b <- ggplot(data = recA, aes(y = Bac,  x = log2(EC..dS.m.))) +
+  geom_point(aes(), size = 3)+scale_color_distiller(palette = "Spectral")+
+  labs(x="Log2(EC dS m-1)",y="Bacterial genome size (Mb)")+
+  geom_smooth(se=FALSE,size=2, method="lm",aes(),color='grey')+ ylim(1, 5)+
+  ggpubr::stat_cor(aes(label = paste(..r.label..,..p.label.., sep = "~`,`~")),r.digits=3,p.digits=3,label.y = 5,size=5,fontface='bold') +
+  theme_bw()+ theme(strip.text = element_text(size = 12,face="bold"),
+                    panel.spacing = unit(0, "lines"),
+                    legend.title = element_text(colour="black", size=8, face="bold"),
+                    legend.text = element_text(colour="black", size=8, face="bold"),
+                    axis.text=element_text(size=10,face="bold"),
+                    axis.title=element_text(size=15,face="bold"))
+
+
+e <- ggplot(data = recA, aes(y = Arch,  x = log2(EC..dS.m.))) +
+  geom_point(aes(), size = 3)+scale_color_distiller(palette = "Spectral")+
+  labs(x="Log2(EC dS m-1)",y="Archaeal genome size (Mb)")+
+  geom_smooth(se=FALSE,size=2, method="lm",aes(),color='grey')+ ylim(0, 9)+
+  ggpubr::stat_cor(aes(label = paste(..r.label..,..p.label.., sep = "~`,`~")),r.digits=3,p.digits=3,label.y = 7.5,size=5,fontface='bold') +
+  theme_bw()+ theme(strip.text = element_text(size = 12,face="bold"),
+                    panel.spacing = unit(0, "lines"),
+                    legend.title = element_text(colour="black", size=8, face="bold"),
+                    legend.text = element_text(colour="black", size=8, face="bold"),
+                    axis.text=element_text(size=10,face="bold"),
+                    axis.title=element_text(size=15,face="bold"))
+
+
+
+ggarrange(b,e,labels = c("a","b"),ncol=2,nrow=1)
+ggsave("Salt_GS_cor.pdf",width = 8, height =4)
