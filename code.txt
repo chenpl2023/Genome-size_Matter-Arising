@@ -44,17 +44,6 @@ nohup bbduk.sh in=${id}.contigs.fa out=${id}.contigs.novirus.fa ref=all200contig
 done
 
 
-#####Calculate the average prokaryotic genome size
-
-conda activate genomeSize
-
-ls *.prok.contigs.novirus.fa | while read id
-do
-id=${id/.prok.contigs.novirus.fa/}
-nohup run_microbe_census.py -t 20 ${id}.prok.contigs.novirus.fa genomeSize/${id}.txt
-done
-
-
 ls *.prok.contigs.fa | while read id
 do
 id=${id/.prok.contigs.fa/}
@@ -66,31 +55,100 @@ cat *.re.prok.contigs.fa >> all200_contigs_new.fa &
 #####Contig annotation
 nohup kraken2 --report report1.txt --threads 30 --db /data1/kraken2_DB_core_NT all200_contigs_new.fa > all200_contigs_krakenclassified1.txt &
 
- #Isolate bacterial-related sequences
+ #Isolate bacterial-related contigs
 ls *.re.prok.contigs.fa | while read id
 do
 id=${id/.re.prok.contigs.fa/}
 extract_kraken_reads.py -k all200_contigs_krakenclassified1.txt -s ${id}.re.prok.contigs.fa -o ${id}.Kraken_bacteria.fa  --taxid 2  --include-children  --report report1.txt
 done
 
- # Isolate archaea-related sequences
+ # Isolate archaea-related contigs
 ls *.re.prok.contigs.fa | while read id
 do
 id=${id/.re.prok.contigs.fa/}
 extract_kraken_reads.py -k all200_contigs_krakenclassified1.txt -s ${id}.re.prok.contigs.fa -o ${id}.Kraken_Archaea.fa  --taxid 2157 --include-children  --report report1.txt
 done
 
+ #Isolate bacterial-related read 
+(ls *.Kraken_bacteria.fa | while read id; do     id=${id/.Kraken_bacteria.fa/};     bbmap.sh -Xmx500G threads=95         in=${id}_R1_clean.fastq         in2=${id}_R2_clean.fastq         outm1=${id}_Newbac_1.fastq         outm2=${id}_Newbac_2.fastq         ref=${id}.Kraken_bacteria.fa; done) &
+
+ #Isolate Archaea-related read 
+(ls *.Kraken_Archaea.fa | while read id; do     id=${id/.Kraken_Archaea.fa/};     bbmap.sh -Xmx500G threads=95         in=${id}_R1_clean.fastq         in2=${id}_R2_clean.fastq         outm1=${id}_NewArchaea_1.fastq         outm2=${id}_NewArchaea_2.fastq         ref=${id}.Kraken_Archaea.fa; done) &
+
 
 conda activate genomeSize
 #2.2 Calculate the average  genome size
-ls *.Kraken_bacteria.fa | while read id
-do
-id=${id/.Kraken_bacteria.fa/}
-nohup run_microbe_census.py -t 20 ${id}.Kraken_bacteria.fa genomeSize/${id}.txt
+for f1 in *_Newbac_1.fastq; do
+    sample=${f1%_Newbac_1.fastq}
+    f2=${sample}_Newbac_2.fastq
+	nohup run_microbe_census.py -t 5 -n 10000000 "$f1","$f2" genomesize_re/${sample}.txt & 
 done
 
-ls *.Kraken_Archaea.fa | while read id
-do
-id=${id/.Kraken_Archaea.fa/}
-nohup run_microbe_census.py -t 20 ${id}.Kraken_Archaea.fa genomeSize/${id}.txt
+for f1 in *_NewArchaea_1.fastq; do
+    sample=${f1%_NewArchaea_1.fastq}
+    f2=${sample}_NewArchaea_2.fastq
+	nohup run_microbe_census.py -t 5 -n 10000000 "$f1","$f2" genomesize_re/${sample}.txt & 
 done
+
+#Metagenomic assembly and genome binning.
+nohup cat *_R1_clean.fastq >> A1_R1_clean.fastq &
+nohup cat *_R2_clean.fastq >> A1_R2_clean.fastq &
+nohup megahit -t 30 -m 0.30 -1 A1_R1_clean.fastq -2 A1_R2_clean.fastq -o A1_combined --k-list 21,29,39,59,79,99,119,141 &
+
+nohup cat *_R1_clean.fastq >> A2_R1_clean.fastq &
+nohup cat *_R2_clean.fastq >> A2_R2_clean.fastq &
+nohup megahit -t 30 -m 0.30 -1 A2_R1_clean.fastq -2 A2_R2_clean.fastq -o A2_combined --k-list 21,29,39,59,79,99,119,141 &
+
+nohup cat *_R1_clean.fastq >> B1_R1_clean.fastq &
+nohup cat *_R2_clean.fastq >> B1_R2_clean.fastq &
+nohup megahit -t 30 -m 0.30 -1 B1_R1_clean.fastq -2 B1_R2_clean.fastq -o B1_combined --k-list 21,29,39,59,79,99,119,141 &
+
+nohup cat *_R1_clean.fastq >> B2_R1_clean.fastq &
+nohup cat *_R2_clean.fastq >> B2_R2_clean.fastq &
+nohup megahit -t 30 -m 0.30 -1 B2_R1_clean.fastq -2 B2_R2_clean.fastq -o B2_combined --k-list 21,29,39,59,79,99,119,141 &
+
+nohup cat *_R1_clean.fastq >> C_R1_clean.fastq &
+nohup cat *_R2_clean.fastq >> C_R2_clean.fastq &
+nohup megahit -t 40 -m 0.30 -1 C_R1_clean.fastq -2 C_R2_clean.fastq -o C_combined --k-list 21,29,39,59,79,99,119,141 &
+
+conda activate metawrap_1.3.2
+nohup metawrap binning -o C.bin -t 20 -a C_final.contigs.fa --metabat2 --maxbin2 --concoct *.fastq &
+nohup metawrap bin_refinement -o C.bin.refine -t 80 -A metabat2_bins -B maxbin2_bins -C concoct_bins -c 70 -x 10 &
+
+conda activate metawrap_1.3.2
+nohup metawrap binning -o A1.bin -t 40 -a  A1_final.contigs.fa --metabat2 --maxbin2 --concoct *.fastq &
+nohup metawrap bin_refinement -o 1CK.bin.refine -t 20 -A metabat2_bins -B maxbin2_bins -C concoct_bins -c 70 -x 10 &
+
+nohup metawrap binning -o B1.bin -t 40 -a  B1_final.contigs.fa --metabat2 --maxbin2 --concoct *.fastq &
+nohup metawrap bin_refinement -o 1CK.bin.refine -t 20 -A metabat2_bins -B maxbin2_bins -C concoct_bins -c 70 -x 10 &
+
+nohup metawrap binning -o A2.bin -t 40 -a  A2_final.contigs.fa --metabat2 --maxbin2 --concoct *.fastq &
+nohup metawrap bin_refinement -o 1CK.bin.refine -t 20 -A metabat2_bins -B maxbin2_bins -C concoct_bins -c 70 -x 10 &
+
+nohup metawrap binning -o B2.bin -t 40 -a  B2_final.contigs.fa --metabat2 --maxbin2 --concoct *.fastq &
+nohup metawrap bin_refinement -o 1CK.bin.refine -t 20 -A metabat2_bins -B maxbin2_bins -C concoct_bins -c 70 -x 10 &
+
+dRep dereplicate drep_all_bin -g All_bin/* -p 30 --completeness 70 --contamination 10
+
+checkm lineage_wf -x fna -t 60 --tab_table --file checkm_results.txt  ./dereplicated_genomes  ./new_checkm_output
+
+coverm genome \
+--genome-fasta-directory /data2/Chenpl/PRJNA1018220/seq_data/drep_all_bin/dereplicated_genomes/ \
+-1 /data2/Chenpl/PRJNA1018220/seq_data/All_seq/*_1.fastq \
+-2 /data2/Chenpl/PRJNA1018220/seq_data/All_seq/*_2.fastq \
+--methods relative_abundance \
+--min-read-percent-identity 95 \
+--min-read-aligned-percent 50 \
+--threads 90 \
+--output-file all_bin_relative.tsv
+
+gtdbtk classify_wf --genome_dir dereplicated_genomes/ --out_dir gtdb_results/ --cpus 30 --mash_db gtdb-220.0.msh
+
+# 第一步：识别标记基因
+gtdbtk identify --genome_dir dereplicated_genomes/ --out_dir gtdbtk_identify --cpus 40
+
+# 第二步：生成多序列比对文件
+gtdbtk align --identify_dir gtdbtk_identify --out_dir gtdbtk_align --cpus 40
+
+trimal -in gtdbtk.ar53.user_msa.fasta -out gtdbtk.ar53.user_msa.trimmed.fasta -automated1
+trimal -in gtdbtk.bac120.user_msa.fasta -out gtdbtk.bac120.user_msa.trimmed.fasta -automated1
