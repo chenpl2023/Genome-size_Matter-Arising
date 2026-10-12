@@ -152,3 +152,16 @@ gtdbtk align --identify_dir gtdbtk_identify --out_dir gtdbtk_align --cpus 40
 
 trimal -in gtdbtk.ar53.user_msa.fasta -out gtdbtk.ar53.user_msa.trimmed.fasta -automated1
 trimal -in gtdbtk.bac120.user_msa.fasta -out gtdbtk.bac120.user_msa.trimmed.fasta -automated1
+
+#sylph annotation
+
+datasets download genome accession --inputfile NCBI_ID_feng.txt --include genome --no-progressbar --filename feng_genomes.zip
+
+find . -mindepth 2 -type f -name "*.fna" | while read -r f; do   dir=$(dirname "$f");   base=$(basename "$dir");   cp "$f" "/data2/Chenpl/PRJNA1018220/seq_data/All_seq/Feng_database/data1/${base}.fna"; done
+
+sylph sketch /data2/Chenpl/PRJNA1018220/seq_data/All_seq/Feng_database/data1/*.fna -o FengGenome -t 20 -c 200
+sylph convert-db-two-screen FengGenome.syldb -o FengGenome.syldb_v2
+for filename in *_1.fastq; do base=$(basename $filename _1.fastq); echo$base; sylph profile FengGenome.syldb_v2.syl2db -1  ${base}_1.fastq -2 ${base}_2.fastq -t 70 > ${base}_results.tsv; done
+
+for filename in *_1.fastq; do base=$(basename $filename _1.fastq); echo$base; sylph profile 99GTDB_MAG.syldb_v2.syl2db -1  ${base}_1.fastq -2 ${base}_2.fastq -t 70 > ${base}_results.tsv; done
+
